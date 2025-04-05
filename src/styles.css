@@ -1,0 +1,30 @@
+body {
+  font-family: 'Noto Serif Bengali', serif;
+  background: #fffbe7;
+  padding: 30px;
+  text-align: center;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: auto;
+  background: #f3e9dc;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+select, button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+.card {
+  margin-top: 20px;
+  background: #fff;
+  border: 1px solid #dab785;
+  padding: 20px;
+  border-radius: 12px;
+}
