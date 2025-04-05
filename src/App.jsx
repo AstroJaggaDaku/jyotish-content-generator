@@ -1,3 +1,10 @@
+useEffect(() => {
+  fetch('/rashi.json')
+    .then(res => res.json())
+    .then(data => setHoroscope(data));
+}, []);
+
+
 import React, { useState } from 'react';
 import HoroscopeCard from './components/HoroscopeCard';
 import './styles.css';
